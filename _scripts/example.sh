@@ -2,7 +2,7 @@
 
 #SBATCH --job-name=Example!
 
-#SBATCH --time=12:00:00 
+#SBATCH --time=1:00:00 
 
 #SBATCH --account=bcga-delta-gpu 
 
@@ -36,7 +36,7 @@ module reset # load the default Delta modules
 
 module load anaconda_gpu 
 
-conda activate /work/hdd/bcga/jliu80/conda
+conda activate /work/hdd/bcga/jliu80/conda/env
 
 #export PYTHONPATH=": /scratch/bcga/dchen4/open_clip/src" # (this line is optional) 
 
