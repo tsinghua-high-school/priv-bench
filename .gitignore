@@ -119,3 +119,4 @@ downstream_models/
 *.npz
 *.output
 *.err
+.mplconfig/
