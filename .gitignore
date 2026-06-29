@@ -107,4 +107,15 @@ ENV/
 # editor, os cache directory
 .vscode/
 .idea/
-__MACOSX/
+__MACOSX/.mplconfig/
+__pycache__/
+_out/
+_err/
+checkpoints/
+datasets/
+downstream_models/
+*.pth
+*.pkl
+*.npz
+*.output
+*.err

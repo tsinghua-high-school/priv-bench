@@ -1,0 +1,3 @@
+[submodule "external/DPImageBench"]
+	path = external/DPImageBench
+	url = https://github.com/tsinghua-high-school/DPImageBench.git
