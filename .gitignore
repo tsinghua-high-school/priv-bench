@@ -120,3 +120,8 @@ downstream_models/
 *.output
 *.err
 .mplconfig/
+
+# local DPImageBench data and outputs
+datasets/
+external/DPImageBench/dataset
+external/DPImageBench/exp/
